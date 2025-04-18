@@ -3,11 +3,12 @@ load_dotenv()
 from flask import Flask, render_template, request
 import requests
 import os
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
 
-app = Flask(__name__)
+flask_app = Flask(__name__)
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
-@app.route('/', methods=['GET', 'POST'])
+@flask_app.route('/', methods=['GET', 'POST'])
 def index():
     weather_data = None
     error = None
@@ -23,3 +24,8 @@ def index():
                 error = f"City '{city}' not found."
 
     return render_template('index.html', weather=weather_data, error=error)
+
+# Mount the app at /api-assignment
+app = DispatcherMiddleware(Flask('dummy_root'), {
+    '/api-assignment': flask_app
+})

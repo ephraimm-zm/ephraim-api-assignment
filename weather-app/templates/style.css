@@ -1,0 +1,93 @@
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraft', sans-serif;
+}
+
+body {
+    background-color: #87CEEB; /* Light blue for sky */
+    color: white;
+    text-align: center;
+    padding: 50px;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #48C9B0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1F8A6A;
+}
+
+/* Weather Info Styling */
+#weather-info {
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Error message styling */
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: red;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Themes based on weather conditions */
+.sunny {
+    background-color: #FFD700; /* Golden sunshine */
+}
+
+.cloudy {
+    background-color: #B0C4DE; /* Light gray for cloudy weather */
+}
+
+.rainy {
+    background-color: #4682B4; /* Dark blue for rainy weather */
+}
+
