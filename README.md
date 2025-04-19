@@ -45,7 +45,7 @@ The deployment process consists of the following steps:
 1. **Clone the repository** to your server:
 
     ```bash
-    git clone https://github.com/your-repo/weather-app.git
+    git clone https://github.com/ephraimm-zm/ephraim-api-assignment.git
     cd weather-app
     ```
 
