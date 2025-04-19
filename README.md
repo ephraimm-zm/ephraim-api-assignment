@@ -1,3 +1,4 @@
+
 # Weather App - Deployment and Load Balancer Configuration Guide
 
 ## Introduction
@@ -150,3 +151,45 @@ The API request is made with the following endpoint:
 
 ```python
 url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric'
+```
+
+## Error Handling
+
+The app includes basic error handling:
+
+- If the city entered by the user is not found, an error message is displayed.
+- If the API fails to respond, an appropriate message is shown to the user.
+
+---
+
+## User Interaction with Data
+
+Users interact with the app by entering a city name and submitting the form. The app fetches the weather data for the specified city and displays it. This interaction is simple but effective, offering users meaningful feedback based on the data.
+
+---
+
+## User Interface
+
+The user interface is designed to be simple and intuitive. The form allows users to input a city name, and the results are presented in a clear format with weather data displayed in a readable and organized manner.
+
+---
+
+## Demo Video
+
+A demo video showcasing the functionality of the app is available. The video highlights:
+
+- User interaction with the city input form.
+- How the weather data is fetched and displayed.
+- Error handling for invalid city names.
+
+---
+
+## API and Resource Attribution
+
+This application uses the **OpenWeather API** for fetching weather data. You can access the API documentation here: [OpenWeather API](https://openweathermap.org/api).
+
+---
+
+## Conclusion
+
+This weather app serves a practical purpose by providing users with up-to-date weather information. The deployment process, including the configuration of web servers and load balancer, ensures that the app is reliable and scalable. The integration with the OpenWeather API is secure, and the error handling guarantees a smooth user experience even in the case of issues such as invalid city names or API downtime.
