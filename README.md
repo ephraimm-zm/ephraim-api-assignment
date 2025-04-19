@@ -139,7 +139,7 @@ Repeat these steps for both web servers.
     sudo systemctl restart nginx
     ```
 
-This configuration ensures that incoming traffic to `http://your-domain.com/api-assignment` is evenly distributed between the two web servers.
+This configuration ensures that incoming traffic is evenly distributed between the two web servers.
 
 ---
 
@@ -176,7 +176,9 @@ The user interface is designed to be simple and intuitive. The form allows users
 
 ## Demo Video
 
-A demo video showcasing the functionality of the app is available. The video highlights:
+Link to video showcasing the functionality of the app:
+
+The video highlights:
 
 - User interaction with the city input form.
 - How the weather data is fetched and displayed.
