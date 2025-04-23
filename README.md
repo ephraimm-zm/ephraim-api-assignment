@@ -176,18 +176,6 @@ The user interface is designed to be simple and intuitive. The form allows users
 
 ---
 
-## Demo Video
-
-Link to video showcasing the functionality of the app:
-
-The video highlights:
-
-- User interaction with the city input form.
-- How the weather data is fetched and displayed.
-- Error handling for invalid city names.
-
----
-
 ## API and Resource Attribution
 
 This application uses the **OpenWeather API** for fetching weather data. You can access the API documentation here: [OpenWeather API](https://openweathermap.org/api).
