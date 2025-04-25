@@ -1,7 +1,8 @@
 
 # Weather App - Deployment and Load Balancer Configuration Guide
 
-http://ephraimonline.tech/api-assignment/
+Link to App: http://ephraimonline.tech/api-assignment/
+Link to Video Demo: https://drive.google.com/file/d/1NpxHHo84iF0Z8BcF2Kj9OcjQlSJtYXEi/view?usp=sharing
 
 ## Introduction
 This application is a weather app that integrates with the OpenWeather API to fetch and display weather data for any given city. Users can input a city name, and the app will retrieve the current weather and display it on the page. The application is deployed on two web servers behind an Nginx load balancer to ensure high availability and fault tolerance.
