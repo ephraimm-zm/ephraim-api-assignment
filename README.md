@@ -2,6 +2,7 @@
 # Weather App - Deployment and Load Balancer Configuration Guide
 
 Link to App: http://ephraimonline.tech/api-assignment/
+
 Link to Video Demo: https://drive.google.com/file/d/1NpxHHo84iF0Z8BcF2Kj9OcjQlSJtYXEi/view?usp=sharing
 
 ## Introduction
